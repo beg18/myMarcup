@@ -17,7 +17,7 @@
     "rimraf": "^2.5.2",
     "gulp-group-css-media-queries": "^1.2.0",
     "gulp-sourcemaps": "^2.6.1",
-    "smart-grid": "^2.1.2"
+    "smart-grid": "latest"
   },
   "dependencies": {
     "corenav": "^1.1.3"
