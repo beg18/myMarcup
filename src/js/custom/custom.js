@@ -1,5 +1,5 @@
 $(function(){
-
+/*
     $('nav').coreNavigation({
         menuPosition: "center",
         container: true,
@@ -17,5 +17,7 @@ $(function(){
         download: false,
         thumbContHeight: 50
     });
+*/
+
 
 });

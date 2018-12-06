@@ -14,12 +14,12 @@
 @import "@{bootstrap}type";
 @import "@{bootstrap}responsive-utilities";
 @import "@{bootstrap}utilities";
-
-
-*/
 @import (less)"../../node_modules/corenav/coreNavigation.css";
 @import (less)"../../bower_components/lightgallery/dist/css/lightgallery.min.css";
 @import (less)"../../bower_components/lightgallery/dist/css/lg-transitions.min.css";
+
+
+*/
 
 
 .reset();
@@ -77,9 +77,32 @@ fieldset {
 /* Pages import
 ==============================*/
 @import "pages/home";
-@import "pages/nav";
-@import "pages/sidebar";
-@import "pages/about";
+
+
+*, *:before,
+*, *:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  flex: 0 0 auto;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
 
 /*
 .debug {
@@ -88,6 +111,8 @@ fieldset {
 */
 
 html {
+  box-sizing: border-box;
+
   .html-fz(16);
 
   .sm-block({
